@@ -1,8 +1,53 @@
-# React + Vite
+## 📦 Dependencies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses the following major dependencies to build a fast, maintainable, and modern web application:
 
-Currently, two official plugins are available:
+### ⚛️ React
+- **Library:** `react`, `react-dom`
+- **Purpose:** Build component-based user interfaces.
+- **Why:** Offers fast rendering with a virtual DOM and reusable UI components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ⚡ Vite
+- **Library:** `vite`
+- **Purpose:** Next-generation frontend tooling.
+- **Why:** Extremely fast dev server with Hot Module Replacement (HMR) and lightning-fast production builds.
+
+### 🎨 Tailwind CSS
+- **Library:** `tailwindcss`, `postcss`, `autoprefixer`
+- **Purpose:** Utility-first CSS framework.
+- **Why:** Enables rapid UI development with a consistent design system and responsive utilities.
+
+### 🔤 Google Fonts
+- **Used via:** `<link>` tag in `index.html` or `@import` in CSS
+- **Purpose:** Custom typography.
+- **Why:** Enhances visual identity and readability with clean, global-friendly fonts.
+
+### 🔧 ESLint & Prettier *(Optional but Recommended)*
+- **Library:** `eslint`, `prettier`, `eslint-plugin-react`
+- **Purpose:** Code linting and formatting.
+- **Why:** Keeps code clean, readable, and consistent.
+
+### 🧪 Vitest *(Optional for testing)*
+- **Library:** `vitest`, `@testing-library/react`
+- **Purpose:** Unit testing framework (if used).
+- **Why:** Fast test execution with modern syntax compatible with Vite.
+
+---
+
+### 📁 DevDependencies (from `package.json`)
+
+```json
+{
+  "dependencies": {
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x"
+  },
+  "devDependencies": {
+    "vite": "^5.x.x",
+    "tailwindcss": "^3.x.x",
+    "postcss": "^8.x.x",
+    "autoprefixer": "^10.x.x"
+  }
+}
+
+
